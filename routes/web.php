@@ -23,6 +23,11 @@ Route::get('about', function () {
     return ("<h3>About Page</h3>");
 });
 
+Route::get('contact', function () {
+    return ("<h3>Contact us</h3>");
+});
+
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');
